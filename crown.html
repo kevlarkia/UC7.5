@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .crown {
+            width: 200px;
+            height: 150px;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        .crown svg {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crown</h1>
+        <div class="crown">
+            <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                <!-- Crown base -->
+                <path d="M 20 120 L 30 80 L 50 100 L 70 60 L 100 90 L 130 60 L 150 100 L 170 80 L 180 120 Z" 
+                      fill="#FFD700" 
+                      stroke="#FFA500" 
+                      stroke-width="2"/>
+                
+                <!-- Crown jewels -->
+                <circle cx="50" cy="100" r="5" fill="#FF0000"/>
+                <circle cx="100" cy="90" r="6" fill="#0000FF"/>
+                <circle cx="150" cy="100" r="5" fill="#00FF00"/>
+                
+                <!-- Crown points decorations -->
+                <circle cx="30" cy="80" r="4" fill="#FF00FF"/>
+                <circle cx="70" cy="60" r="4" fill="#FF00FF"/>
+                <circle cx="130" cy="60" r="4" fill="#FF00FF"/>
+                <circle cx="170" cy="80" r="4" fill="#FF00FF"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
