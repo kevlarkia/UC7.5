@@ -1,0 +1,64 @@
+# Cursor IDE Rules for UC7.5
+
+## Repository Overview
+
+This is the UC7.5 repository, featuring a simple crown visualization project. This file provides guidelines and context to help Cursor AI understand the project structure, coding standards, and best practices.
+
+## Project Structure
+
+- `crown.html` - Main visualization file with embedded SVG crown graphic
+- `README.md` - Project documentation
+- `.github/copilot-instructions.md` - GitHub Copilot configuration
+
+## Coding Standards
+
+### General Principles
+- Write clean, readable, and maintainable code
+- Follow the DRY (Don't Repeat Yourself) principle
+- Use meaningful variable and function names
+- Keep functions small and focused on a single responsibility
+- Add comments only when necessary to explain complex logic
+
+### HTML/CSS/JavaScript Style
+- Use consistent indentation with 4 spaces
+- Use semantic HTML5 elements
+- Keep styles organized and well-commented
+- Follow modern web standards
+- Ensure cross-browser compatibility
+
+## Development Guidelines
+
+### Code Quality
+- Ensure all HTML is valid and well-formed
+- Use modern CSS features appropriately
+- Test in multiple browsers when making changes
+- Optimize for performance and accessibility
+
+### Documentation
+- Keep README.md up to date with project information
+- Document any new features or significant changes
+- Include usage examples where helpful
+
+## Git Workflow
+
+- Write clear, descriptive commit messages
+- Keep commits focused on a single change or feature
+- Reference issue numbers in commits when applicable
+
+## Security Best Practices
+
+- Never commit secrets, API keys, or sensitive credentials
+- Validate and sanitize all user inputs
+- Follow web security best practices
+- Be mindful of XSS and other common vulnerabilities
+
+## Additional Guidelines
+
+- Be mindful of dependencies - keep the project lightweight
+- Consider backwards compatibility when making changes
+- Optimize for readability first, performance second
+- When in doubt, ask for clarification or guidance
+
+---
+
+**Note:** This project is intentionally minimal. Maintain simplicity while adding new features.
