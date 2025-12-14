@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkm"
+version = "0.1.0"
+description = "Personal Knowledge Management tools with document embedding"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "sentence-transformers>=2.2.0",
+    "torch>=1.9.0",
+]
+
+[project.scripts]
+pkm = "pkm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pkm*"]
