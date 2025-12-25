@@ -2,13 +2,25 @@
 
 ## Repository Overview
 
-This is the UC7.5 repository, featuring a simple crown visualization project. This file provides guidelines and context to help Cursor AI understand the project structure, coding standards, and best practices.
+This is the UC7.5 repository. This file provides guidelines and context to help Cursor AI understand the project structure, coding standards, and best practices.
 
 ## Project Structure
 
 - `crown.html` - Main visualization file with embedded SVG crown graphic
 - `README.md` - Project documentation
 - `.github/copilot-instructions.md` - GitHub Copilot configuration
+
+## Testing and Validation
+
+### Testing Requirements
+- Write tests for new features and bug fixes
+- Ensure all tests pass before submitting changes
+- Aim for meaningful test coverage
+
+### Code Review
+- All changes should be reviewed before merging
+- Address feedback constructively
+- Ensure changes don't break existing functionality
 
 ## Coding Standards
 
